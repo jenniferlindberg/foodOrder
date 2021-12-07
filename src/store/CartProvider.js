@@ -6,7 +6,7 @@ const CartProvider = (props) => {
   const removerItemFromCartHandler = (item) => {};
 
   const cartContext = {
-    utems: [],
+    items: [],
     totalAmount: 0,
     addItem: addItemToCartHandler,
     removeItem: removerItemFromCartHandler,
